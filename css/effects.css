@@ -51,10 +51,21 @@ pre {
 color: #000;
 }
 
+.modal-body p 
+{
+letter-spacing: 0px;
+text-transform: none;
+font-size: 16px;
+}
+
 .navbar-inverse {
 	color: #fff;
     background-color: rgba(255,255,255,0.2);
     border-bottom: 1px solid #fff;
+}
+
+ul.nav.navbar-nav {
+float: right;
 }
 
 .navbar-inverse .navbar-brand , .navbar-inverse .navbar-nav>li>a {
