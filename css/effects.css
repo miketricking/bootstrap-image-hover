@@ -133,7 +133,7 @@ color: #fff;
   box-shadow: 0 0 5px #fff;
 }
 
-/* stlying to remove box shadow and border from buttons for last few effects */
+/* styling to remove box shadow and border from buttons for last few effects */
 
 .hover button.nullbutton {
   border: none;
@@ -145,12 +145,15 @@ color: #fff;
   box-shadow: none;
 }
 
-/* styling for the effects that have no visual button, however these buttons only seem to work in chrome and not firefox */
-.emptybutton {
-  padding: 0px;
-  margin: 0px;
-  border: none;
-  width: 100%;
+/* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+.modal-open .modal, button:focus {
+    outline:none!important
+}
+
+/* styling so when hovering over a div that opens a modal the cursor changes to a pointer */
+.point {
+cursor: pointer;
 }
 
 /* effect hover 1 */
