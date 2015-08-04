@@ -180,8 +180,8 @@ cursor: pointer;
   -ms-transform: translatey(-100px);
   -o-transform: translatey(-100px);
   -webkit-transform: translatey(-100px);
-  transform: translatey(-100px)
-    opacity: 0;
+  transform: translatey(-100px);
+  opacity: 0;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -372,8 +372,8 @@ cursor: pointer;
   -ms-transform: translatey(-100px);
   -o-transform: translatey(-100px);
   -webkit-transform: translatey(-100px);
-  transform: translatey(-100px)
-    opacity: 0;
+  transform: translatey(-100px);
+  opacity: 0;
   transition: all 0.2s cubic-bezier(0.88,-0.99, 0, 1.81);
 }
 
