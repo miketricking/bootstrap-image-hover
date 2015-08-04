@@ -1,5 +1,16 @@
 # imagehover
-html and css code for image hover effects
+html and css code for image hover effects with or without bootstrap
+
+Have tested all individually in codepen using bootstrap.
+
+TO DO:
+
+Make all the effects fully responsive. Some are already/some need slight changes depending on sizes.
+
+
+
+
+
 
 
 
@@ -12,5 +23,4 @@ font awesome (http://fortawesome.github.io/Font-Awesome/)
 gitgub (http://github.com)
 unsplash for images (https://unsplash.com/)
 font squirrel (http://fontsquirrel.com/)
-code beautify (http://codebeautify.org/)
-Pleeease play prefix (http://pleeease.io/play/)
+codepen (http://codepen.com/)
