@@ -7,6 +7,8 @@ TO DO:
 
 Make all the effects fully responsive. Some are already/some need slight changes depending on sizes.
 
+Create the effects using SASS.
+
 
 
 
