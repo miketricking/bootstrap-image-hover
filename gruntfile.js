@@ -13,6 +13,12 @@ module.exports = function(grunt) {
     }
 },
 
+        clean: {
+            build: {
+                src: ['src/js/production.js']
+            }
+        },
+
 
 
 	uglify: {
@@ -22,6 +28,14 @@ module.exports = function(grunt) {
         }
     }
 },
+
+        copy: {
+            main: {
+                files: [
+                    {expand: true, flatten: true, src: ['src/index.html'], dest: 'dist/'}
+                ]
+            }
+        },
 
 
 imagemin: {
@@ -53,8 +67,8 @@ imagemin: {
     },
 
   });
-    
-	
+
+
 
 
     // 3. Where we tell Grunt we plan to use this plug-in.
@@ -69,7 +83,11 @@ imagemin: {
 	
 	grunt.loadNpmTasks('grunt-autoprefixer');
 
-    // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'autoprefixer','cssmin']);
+    grunt.loadNpmTasks('grunt-contrib-copy');
+
+    grunt.loadNpmTasks('grunt-contrib-clean');
+
+
+	grunt.registerTask('default', ['clean', 'concat', 'uglify', 'imagemin', 'autoprefixer','cssmin', 'copy']);
 
 };
