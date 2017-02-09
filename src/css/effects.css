@@ -883,6 +883,7 @@ filter: brightness(0.7);
 }
 
 .ehover10 .overlay {
+    visibility: hidden;
 	top: auto;
 	bottom: 0;
 	padding: 1em;
@@ -944,6 +945,7 @@ filter: brightness(0.7);
 .ehover10:hover p.icon-links a {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+  visibility: visible;
 }
 
 .ehover10:hover h2 {
