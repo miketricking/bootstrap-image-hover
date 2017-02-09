@@ -172,7 +172,6 @@ cursor: pointer;
 }
 
 .ehover1 h2 {
-  -ms-transform: translatey(-100px);
   -webkit-transform: translatey(-100px);
   transform: translatey(-100px);
   opacity: 0;
@@ -187,7 +186,6 @@ cursor: pointer;
 }
 
 .ehover1:hover img {
-  -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -198,7 +196,6 @@ cursor: pointer;
 
 .ehover1:hover h2, .ehover1:hover button.info {
   opacity: 1;
-  -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
 }
@@ -219,7 +216,6 @@ cursor: pointer;
   background-color: rgba(0,0,0,0.6);
   opacity: 0;
   -webkit-transform: translate(460px, -100px) rotate(180deg);
-      -ms-transform: translate(460px, -100px) rotate(180deg);
           transform: translate(460px, -100px) rotate(180deg);
   -webkit-transition: all 0.2s 0.4s ease-in-out;
           transition: all 0.2s 0.4s ease-in-out;
@@ -227,7 +223,6 @@ cursor: pointer;
 
 .ehover2 button.info {
   -webkit-transform: translateY(-200px);
-      -ms-transform: translateY(-200px);
           transform: translateY(-200px);
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
@@ -238,13 +233,11 @@ cursor: pointer;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
 }
 
 .ehover2:hover h2 {
   -webkit-transform: translateY(0px);
-      -ms-transform: translateY(0px);
           transform: translateY(0px);
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
@@ -252,7 +245,6 @@ cursor: pointer;
 
 .ehover2:hover button.info {
   -webkit-transform: translateY(0px);
-      -ms-transform: translateY(0px);
           transform: translateY(0px);
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
@@ -268,7 +260,6 @@ cursor: pointer;
 
 .ehover3 button.info, .ehover3 h2 {
   -webkit-transform: scale(0.7);
-      -ms-transform: scale(0.7);
           transform: scale(0.7);
   -webkit-transition: all 0.4s ease-in;
           transition: all 0.4s ease-in;
@@ -279,14 +270,12 @@ cursor: pointer;
   filter: grayscale(1) blur(3px);
   -webkit-filter: grayscale(1) blur(3px);
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 .ehover3:hover button.info, .ehover3:hover h2 {
   opacity: 1;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
 }
  
@@ -295,7 +284,6 @@ cursor: pointer;
  
 .ehover4 h2 {
   -webkit-transform: translateY(55px);
-      -ms-transform: translateY(55px);
           transform: translateY(55px);
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
@@ -303,7 +291,6 @@ cursor: pointer;
 
 .ehover4:hover h2 {
   -webkit-transform: translateY(15px);
-      -ms-transform: translateY(15px);
           transform: translateY(15px);
 }
 
@@ -320,7 +307,6 @@ cursor: pointer;
 .ehover4 button.info {
   opacity: 0;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
           transform: scale(0);
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
@@ -333,7 +319,6 @@ cursor: pointer;
 .ehover4:hover button.info {
   opacity: 1;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
 }
   
@@ -341,7 +326,6 @@ cursor: pointer;
  
 .ehover42 h2 {
   -webkit-transform: translateY(55px);
-      -ms-transform: translateY(55px);
           transform: translateY(55px);
   -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
           transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
@@ -349,7 +333,6 @@ cursor: pointer;
 
 .ehover42:hover h2 {
   -webkit-transform: translateY(15px);
-      -ms-transform: translateY(15px);
           transform: translateY(15px);
 }
 
@@ -366,7 +349,6 @@ cursor: pointer;
 .ehover42 button.info {
   opacity: 0;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
           transform: scale(0);
   -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
           transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
@@ -379,7 +361,6 @@ cursor: pointer;
 .ehover42:hover button.info {
   opacity: 1;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
 }
  
@@ -400,7 +381,6 @@ cursor: pointer;
 }
 
 .ehover1v2 h2 {
-  -ms-transform: translatey(-100px);
   -webkit-transform: translatey(-100px);
   transform: translatey(-100px);
   opacity: 0;
@@ -415,7 +395,6 @@ cursor: pointer;
 }
 
 .ehover1v2:hover img {
-  -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -426,7 +405,6 @@ cursor: pointer;
 
 .ehover1v2:hover h2, .ehover1v2:hover button.info {
   opacity: 1;
-  -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
 }
@@ -445,13 +423,11 @@ cursor: pointer;
 
 .ehover5 img {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
 .ehover5:hover img {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
 }
 
@@ -467,7 +443,6 @@ cursor: pointer;
 .ehover5 button.info {
   opacity: 0;
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
@@ -484,7 +459,6 @@ cursor: pointer;
 .ehover5:hover button.info {
   opacity: 1;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   background-color: rgba(0,0,0,0.4);
 }
@@ -497,7 +471,6 @@ cursor: pointer;
  
 .ehover6 .rotate {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
   width: 100%;
   height: 100%;
@@ -530,8 +503,7 @@ cursor: pointer;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
   -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-      transform-origin: 50%;
+  transform-origin: 50%;
   background-color: transparent;
   margin: 0px;
 }
@@ -544,8 +516,7 @@ cursor: pointer;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
   -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-      transform-origin: 50%;
+  transform-origin: 50%;
   background-color: transparent;
   margin: 0px;
   padding: 0px;
@@ -636,7 +607,6 @@ cursor: pointer;
 
 .ehover6 img {
 -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
         transform: scale(1.1);
 -webkit-transition: all 0.35s;
         transition: all 0.35s;
@@ -644,7 +614,6 @@ cursor: pointer;
 .ehover6:hover img
 {
 -webkit-transform: scale(1);
-    -ms-transform: scale(1);
         transform: scale(1);
 filter: brightness(0.7);
 -webkit-filter: brightness(0.7);
@@ -664,8 +633,7 @@ filter: brightness(0.7);
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 	-webkit-transform-origin: 50%;
-	-ms-transform-origin: 50%;
-	    transform-origin: 50%;
+	transform-origin: 50%;
 	background-color: transparent;
 	margin: 0px;
 	padding: 0px;
@@ -685,8 +653,7 @@ filter: brightness(0.7);
 	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
 	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
 	-webkit-transform-origin: 50%;
-	-ms-transform-origin: 50%;
-	    transform-origin: 50%;
+	transform-origin: 50%;
 }
 
 
@@ -781,8 +748,7 @@ filter: brightness(0.7);
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
   -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-      transform-origin: 50%;
+  transform-origin: 50%;
   background-color: transparent;
   margin: 0px;
 }
@@ -795,8 +761,7 @@ filter: brightness(0.7);
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
   -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-      transform-origin: 50%;
+  transform-origin: 50%;
   background-color: transparent;
   margin: 0px;
   padding: 0px;
@@ -890,7 +855,6 @@ filter: brightness(0.7);
 }
 .ehover9 h2{
     -webkit-transform: translateY(-200px);
-        -ms-transform: translateY(-200px);
             transform: translateY(-200px);
 	-webkit-transition: all ease-in-out 0.1s;
 	        transition: all ease-in-out 0.1s;
@@ -900,7 +864,6 @@ filter: brightness(0.7);
 
 .ehover9 button.info { 
     -webkit-transform: translateY(-200px); 
-        -ms-transform: translateY(-200px); 
             transform: translateY(-200px);
 	color: #000;
 	border: 1px solid #000;
@@ -916,7 +879,6 @@ filter: brightness(0.7);
 }																						
 .ehover9:hover h2 { 
     -webkit-transform: translateY(0px); 
-        -ms-transform: translateY(0px); 
             transform: translateY(0px);
 	-webkit-transition-delay: 0.3s;
 	        transition-delay: 0.3s;
@@ -924,7 +886,6 @@ filter: brightness(0.7);
 
 .ehover9:hover button.info { 
     -webkit-transform: translateY(0px); 
-        -ms-transform: translateY(0px); 
             transform: translateY(0px);
     box-shadow: 0 0 5px #000;
 	color: #000;
@@ -1190,8 +1151,7 @@ filter: brightness(0.6);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	        transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
-	-ms-transform: scale(0,1);
-	    transform: scale(0,1);
+	transform: scale(0,1);
 }
 
 
@@ -1199,8 +1159,7 @@ filter: brightness(0.6);
 .ehover13:hover .overlay {
 	opacity: 1;
 	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	    transform: scale(1);
+	transform: scale(1);
 	
 }
 
