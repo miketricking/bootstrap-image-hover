@@ -1,10 +1,10 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here 
+    // 1. All configuration goes here
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-     concat: {   
+     concat: {
     dist: {
         src: [
             'src/js/*.js', // All JS files
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 	uglify: {
     build: {
         files: {
-            'dist/js/production.min.js': ['src/js/production.js']
+            'js/production.min.js': ['src/js/production.js']
         }
     }
 },
@@ -32,7 +32,9 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    {expand: true, flatten: true, src: ['src/index.html'], dest: 'dist/'}
+                    {expand: true, flatten: true, src: ['src/index.html'], dest: '.'},
+                    {expand: true, flatten: true, src: ['src/fonts/**/*'], dest: 'fonts'},
+                    {expand: true, flatten: true, src: ['src/css/bootstrap.min.css', 'src/css/font-awesome.min.css'], dest: 'css'}
                 ]
             }
         },
@@ -40,14 +42,14 @@ module.exports = function(grunt) {
 
 imagemin: {
     dynamic: {
-        files: [{
-            expand: true,
-            cwd: 'src/images/',
-            src: ['**/*.{png,jpg,gif}'],
-            dest: 'dist/images'
-        }]
+      files: [{
+        expand: true,
+        cwd: 'src/images/',
+        src: ['**/*.{png,jpg,gif}'],
+        dest: 'images'
+      }]
     }
-},
+  },
 
  autoprefixer: {
             dist: {
@@ -61,7 +63,7 @@ imagemin: {
     cssmin: {
       build: {
         files: {
-          'dist/css/effects.min.css': 'src/css/effectspre.css'
+          'css/effects.min.css': 'src/css/effectspre.css'
         }
       }
     },
@@ -72,15 +74,15 @@ imagemin: {
 
 
     // 3. Where we tell Grunt we plan to use this plug-in.
-	
+
 	grunt.loadNpmTasks('grunt-contrib-concat');
-	
+
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	
+
     grunt.loadNpmTasks('grunt-contrib-uglify');
-	
+
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	
+
 	grunt.loadNpmTasks('grunt-autoprefixer');
 
     grunt.loadNpmTasks('grunt-contrib-copy');
